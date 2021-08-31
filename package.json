@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
+    "export": "next export",
     "start": "next start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "google-maps-react": "^2.0.2",
     "next": "^9.1.2",
     "react": "^16.11.0",
     "react-bootstrap": "^1.0.0-beta.14",

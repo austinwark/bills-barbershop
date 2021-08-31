@@ -28,11 +28,11 @@ class Testimonials extends React.Component {
 		const { index, direction } = this.state;
 
 		return (
-			<div className='col-12 col-md-8 mx-auto mt-5' id='testimonials'>
-			<Jumbotron>
-				<Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} className='my-auto'>
+			<div className='col-12 col-md-8 mx-auto mt-5 cms-editable' id='testimonials'>
+			<Jumbotron className='shadow'>
+				<Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} className='my-auto bg-dark my-0'>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“Best local barbershop. Its always busy on the weekends, but I always get a clean and sharp haircut. 
@@ -44,7 +44,7 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“Great place, the man knows what he's doing.  I could never find a good place to get my hair cut since 
@@ -55,7 +55,7 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“If you've ever been offended don't come here. If your a man who wants a good hair cut at a real barbershop, this is the place.”</p>
@@ -65,9 +65,9 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
-							<blockquote className='blockquote'>
+							<blockquote className='blockquote mt-0'>
 								<p className='px-0'>“Bill is a great source of entertainment, and he cuts a good haircut”</p>
 								<footer className='blockquote-footer'>Rich Maxon</footer>
 								<span className='test-stars'>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span>
@@ -75,7 +75,7 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“He cuts it just the way you tell him and he remembers each time you get in the chair.”</p>
@@ -85,7 +85,7 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“Definitely a guys barber shop. You better have thick skin. The haircut is great”</p>
@@ -95,7 +95,7 @@ class Testimonials extends React.Component {
 						</div>
 					</Carousel.Item>
 					<Carousel.Item className='h-100 w-100'>
-						<div className='d-block w-100 bg-light text-dark testimonial-slide'>
+						<div className='d-block w-100 h-100 bg-light text-dark testimonial-slide shadow'>
 							<h1 className='m-2 mt-2 pb-2 border-bottom border-primary'>Testimonial</h1>
 							<blockquote className='blockquote'>
 								<p className='px-0'>“This is where men get their hair cut.”</p>
