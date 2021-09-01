@@ -1,1 +1,7 @@
-{"/_app":"static/stT7ANRXNNGI__4-YPEM4/pages/_app.js","/_document":"static/stT7ANRXNNGI__4-YPEM4/pages/_document.js","/_error":"static/stT7ANRXNNGI__4-YPEM4/pages/_error.js","/index":"static/stT7ANRXNNGI__4-YPEM4/pages/index.html","/":"static/stT7ANRXNNGI__4-YPEM4/pages/index.html"}
+{
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
